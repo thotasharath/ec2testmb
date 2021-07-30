@@ -1,5 +1,5 @@
 - name: ec2 launcher
-  hosts: 172.31.4.64
+  hosts: 172.31.6.59
   connection: local
   tasks:
   - name: launching ec2
