@@ -2,6 +2,8 @@
   hosts: localhost
   connection: local
   tasks:
+    - pip:
+        name: boto
   - name: launching ec2
     ec2:
       instance_type: t2.micro
