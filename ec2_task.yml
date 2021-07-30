@@ -1,6 +1,7 @@
 - name: ec2 launcher
   hosts: 172.31.4.64
   connection: local
+  ansible_python_interpreter: python
   tasks:
   - name: launching ec2
     ec2:
